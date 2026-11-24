@@ -1,0 +1,6 @@
+estratégia,acurácia,gerações (média)
+fixa 4,0.59,4.0
+fixa 8,0.66,8.0
+fixa 16,0.745,16.0
+adaptativa 0.95,0.745,11.105
+adaptativa 0.90,0.745,9.86

@@ -1,0 +1,40 @@
+# Deep Learning e modelos de linguagem
+torch
+transformers
+accelerate
+bitsandbytes
+sentencepiece
+tokenizers
+safetensors
+
+# Hugging Face e datasets
+datasets
+huggingface_hub
+
+# Processamento e análise de dados
+numpy
+pandas
+scipy
+
+# Avaliação e métricas
+scikit-learn
+evaluate
+
+# Execução e experimentação
+jupyter
+ipykernel
+tqdm
+python-dotenv
+
+# Visualização
+matplotlib
+seaborn
+
+# Requisições e APIs
+requests
+httpx
+openai
+
+# Utilitários
+PyYAML
+jsonlines
