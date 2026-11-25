@@ -1,6 +1,6 @@
 # Experimentos com o juiz Qwen3-8B
 
-No Colab, use [avaliacao_colab.ipynb](../avaliacao_colab.ipynb). Na linha de comando, execute a partir da raiz do projeto, em Python 3.11+ com PyTorch CUDA e GPU compatível com quantização NF4. O carregamento do modelo ocorre na primeira chamada que ainda precisa de julgamento. A primeira execução real precisa de acesso ao Hugging Face.
+No Colab, use [avaliacao_colab.ipynb](../avaliacao_colab.ipynb) com GPU T4. O notebook clona a branch `feature/llm-judge` em `/content`, acessa os módulos e `respostas.jsonl` do repositório e grava `checkpoint.sqlite`, tabelas e gráficos no Google Drive. Na linha de comando, execute a partir da raiz do projeto, em Python 3.11+ com PyTorch CUDA e GPU compatível com quantização NF4. O carregamento do modelo ocorre na primeira chamada que ainda precisa de julgamento. A primeira execução real precisa de acesso ao Hugging Face.
 
 ```sh
 python -m pip install -r avaliacao/requirements.txt
